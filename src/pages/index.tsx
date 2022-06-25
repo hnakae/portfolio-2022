@@ -1,6 +1,5 @@
-import Head from "next/head";
-import NextLink from "next/link";
-const Home = () => {
+import type { NextPage } from 'next'
+const Home: NextPage = () => {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
@@ -17,7 +16,7 @@ const Home = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
